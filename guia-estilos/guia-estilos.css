@@ -1,0 +1,45 @@
+h1 {
+    font-family: Arial; 
+}
+    
+h2 {
+    font-family: Arial;
+}
+    .container {
+    text-align: center; 
+    font font-family: Arial;
+    font-size: 15px;
+    width: calc(15% - 44px);
+    height: 100px;
+    background-color: DarkSeaGreen ;
+    padding: 10px;
+    float: left;
+    margin: 10px;
+      }
+
+
+    .container1 {
+    text-align: center; 
+    font font-family: Arial;
+    font-size: 15px;
+    width: calc(15% - 44px);
+    height: 100px;
+    background-color: MediumSeaGreen ;
+    padding: 10px;
+    float: left;
+    margin: 10px;
+        }
+
+          
+    .container2 {
+    text-align: center; 
+    font font-family: Arial;
+    font-size: 15px;
+    width: calc(15% - 44px);
+    height: 100px;
+    background-color: DarkOliveGreen ;
+    padding: 10px;
+    float: left;
+    margin: 10px;
+        }
+      
