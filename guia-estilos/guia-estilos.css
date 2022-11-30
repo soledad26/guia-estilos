@@ -1,67 +1,92 @@
-h1 {
-    font-family: Arial; 
-}
-   
-h2 {
-    font-family: Arial;
-}
-
-h3 {
-    font-family: Arial;
-}
-
-div {
-    font-family: Arial;
+body {
+    font-family:  Helvetica, sans-serif; 
+    background-color: grey;
+}  
+main {
+    max-width: 800px;
+    padding: 16px;
+    margin: 16px auto;
+    background-color: white;
+    border-radius: 6px;
 }
 
-    .container {
-        text-align: center; 
-        font font-family: Arial;
-        font-size: 15px;
-        width: calc(15% - 44px);
-        height: 100px;
-        background-color: DarkSeaGreen;
-        padding: 8px;
-        float: left;
-        margin: 8px;
-      }
+    
+.container {
+    text-align: center; 
+    font: Arial;
+    font-size: 15px;
+    width: calc(25% - 32px);
+    height: 100px;
+    padding: 8px;
+    margin: 6px;
+    display: inline-block;
+}
+    
+.containerDSG {
+    background-color: darkseagreen;
+}
 
-
-    .container1 {
-        text-align: center; 
-        font font-family: Arial;
-        font-size: 15px;
-        width: calc(15% - 44px);
-        height: 100px;
-        background-color: MediumSeaGreen;
-        padding: 8px;
-        float: left;
-        margin: 8px;
-        }
-
-          
-    .container2 {
-        text-align: center; 
-        font font-family: Arial;
-        font-size: 15px;
-        width: calc(15% - 44px);
-        height: 100px;
-        background-color: DarkOliveGreen;
-        padding: 8px;
-        float: left;
-        margin: 8px;
-    }
-
-    .container3 {
-        text-align: center; 
-        font font-family: Arial;
-        font-size: 15px;
-        width: calc(15% - 44px);
-        height: 100px;
-        background-color: GreenYellow;
-        padding: 8px;
-        float: left;
-        margin: 8px;
-    }
-
+.containerMSG {
+    background-color: MediumSeaGreen;
+}
       
+.containerDOL {
+    background-color: DarkOliveGreen;
+}
+
+.containerGY {
+    background-color: GreenYellow;
+}
+
+.containerDSG {
+    background-color: DarkSlateGray;
+}
+ 
+.containerDG {
+    background-color: DimGray;
+}
+
+.containerSil {
+    background-color: Silver;
+}
+
+.containerGain {
+    background-color: Gainsboro;
+}
+
+.containerBW {
+    background-color: BurlyWood;
+}
+
+.containerWh {
+    background-color: Wheat;   
+}
+
+.containerBi {
+    background-color: Bisque
+}
+.containerCo {
+    background-color: Cornsilk;
+}
+
+
+
+
+
+
+h1, h2, h3, h4 {
+    margin-bottom: 0.5em ;
+    color: rgb(56, 55, 55);
+}
+h1 {
+    font-size: 36px;
+}
+h2 {
+    font-size: 30px;
+}    
+h3 {
+    font-size: 26px;
+}
+h4 {
+    font-size: 22px;
+}
