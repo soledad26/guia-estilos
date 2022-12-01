@@ -65,13 +65,10 @@ main {
 .containerBi {
     background-color: Bisque
 }
+
 .containerCo {
     background-color: Cornsilk;
 }
-
-
-
-
 
 
 h1, h2, h3, h4 {
@@ -79,14 +76,59 @@ h1, h2, h3, h4 {
     color: rgb(56, 55, 55);
 }
 h1 {
-    font-size: 36px;
+    font-size: 34px;
 }
 h2 {
-    font-size: 30px;
+    font-size: 28px;
 }    
 h3 {
-    font-size: 26px;
-}
-h4 {
     font-size: 22px;
 }
+h4 {
+    font-size: 18px;
+}
+
+[type="info"] {
+    border:2px solid rgb(58, 58, 56);
+    background-color: rgb(245, 222, 174);
+    height: 40px;
+    width: 140px;
+    margin-bottom: 0.5em;
+    margin-right: 0.5em;
+    border-radius: 0.40em;
+}
+
+[type="text"] {
+    border:1px solid rgb(58, 58, 56);
+    background-color: rgb(245, 222, 174);
+    height: 40px;
+    width: 84px;
+    margin-bottom: 0.5em;
+    margin-right: 0.5em;
+}
+ 
+.redondo {
+    font-family: Helvetica, sans-serif;
+    font-size: 15px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    box-shadow: 4px 3px 2px 1px rgb(52, 114, 1);
+    border-width: 0px;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+    
+}
+
+.redondo:focus{
+    box-shadow: 3px 3px 2px 2px rgb(2, 179, 11);
+   
+}
+
+.click:hover {
+     border: 2px solid rgb(2, 179, 11);
+     border-radius: 0.60em;
+     
+ }
+
+ 
